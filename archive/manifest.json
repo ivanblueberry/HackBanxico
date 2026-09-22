@@ -1,0 +1,439 @@
+{
+  "source": "https://www.banxico.org.mx/hackathonspei/",
+  "captured_at": "2026-09-22T03:08:18.693097+00:00",
+  "files": [
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/css/bootstrap.min.css",
+      "path": "css/bootstrap.min.css",
+      "bytes": 286731,
+      "sha256": "c6a3eda5dbf4cbff1ec6bc3fd28ea154a3441ae6e0b742242a7469bdc74cabec",
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/css/bootstrap.min.css.map",
+      "path": "css/bootstrap.min.css.map",
+      "bytes": 589161,
+      "sha256": "8c99b4ed590bd40f66742bfaebfb26775ca803d88273b87b9df9f9dc05f7f1c7",
+      "content_type": "text/plain"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/css/hacka.css",
+      "path": "css/hacka.css",
+      "bytes": 15789,
+      "sha256": "4f5265c240528e41f654df82f611cdc9de9b046a5fdc9f24bf09c695e4228736",
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/d/HS2025_bases.pdf",
+      "path": "d/HS2025_bases.pdf",
+      "bytes": 899010,
+      "sha256": "4745dee7dd606ee22e6a0f156b12e51b35b69a6657de620255c3959682e5f108",
+      "content_type": "application/pdf"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/favicon.ico",
+      "path": "favicon.ico",
+      "bytes": 15406,
+      "sha256": "6a05fc9fcbe4ecdc0861d3f48502f3e0f46b64450614847c14b4b2c374af1d40",
+      "content_type": "image/x-icon"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/00_Fondo.jpg",
+      "path": "img/00_Fondo.jpg",
+      "bytes": 3302665,
+      "sha256": "7b1df4c8ab03562b6eb7f2e95ba3904c9cdfe22d2f8cea3556235de5282a3531",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/01_Icono_Facebook.png",
+      "path": "img/01_Icono_Facebook.png",
+      "bytes": 772,
+      "sha256": "85d13a52ea541283c77c81a2313183972c6650c56ee197413abc05937ee2ecbe",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/01_Icono_Instagram.png",
+      "path": "img/01_Icono_Instagram.png",
+      "bytes": 1085,
+      "sha256": "911724635b58524432a46475d9ce49a8b00fa1d61bb74c0bca9055e10a79f043",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/01_Menu_Hackathon.png",
+      "path": "img/01_Menu_Hackathon.png",
+      "bytes": 8572,
+      "sha256": "f06190186a389fe8d872d0360fae06a6d51eeaff8b34ed9f482ab99564c609c4",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/02_Hackathon_SPEI.png",
+      "path": "img/02_Hackathon_SPEI.png",
+      "bytes": 30132,
+      "sha256": "ba3537821235f6dbf97fc211b430e495071924dbc93b1191706295d98db6754d",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/03_Que_es_Hackathon.png",
+      "path": "img/03_Que_es_Hackathon.png",
+      "bytes": 43145,
+      "sha256": "c61f4d2466463359ebf952afbac581912f7436f0b5f9142e21bd1fe4b67d8c42",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/04_Boton_Bases.png",
+      "path": "img/04_Boton_Bases.png",
+      "bytes": 8424,
+      "sha256": "9409b79597cc305c01c320553ae9c1f1ec7e4b2f06a22d7451d1094c66652871",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/04_Boton_Registrog.png",
+      "path": "img/04_Boton_Registrog.png",
+      "bytes": 14726,
+      "sha256": "acc4109ce6f77b2f25ead7b3dfc04ff72c04622c3210f964b89c9ab03c2bb358",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/05_Fases_Linea_Abajo.png",
+      "path": "img/05_Fases_Linea_Abajo.png",
+      "bytes": 2372,
+      "sha256": "e786cef88c11213904c9195318cb3303074739453c5836951b1cb257b10f879e",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/05_Fases_Linea_Arriba.png",
+      "path": "img/05_Fases_Linea_Arriba.png",
+      "bytes": 2378,
+      "sha256": "153caaf26540882fbe488c4b5e453b9fd58cade90fbcaf3206813ea651649616",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/05_Fases_Linea_Der.png",
+      "path": "img/05_Fases_Linea_Der.png",
+      "bytes": 3966,
+      "sha256": "f921114e5dfe20e5c279a20759a3af09c3ff9bf2f0785ab74a1510c01bbe3f9a",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/05_Fases_Linea_Izq.png",
+      "path": "img/05_Fases_Linea_Izq.png",
+      "bytes": 3757,
+      "sha256": "1001ca1cd537a20e90006bd094c7867c38ae1d98d3787f6168f3839d50084692",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/05_Fases_No_1.png",
+      "path": "img/05_Fases_No_1.png",
+      "bytes": 241,
+      "sha256": "d877e3636c74a51e1a0f48129a84bc152a411d192a3d8a84c058601109e1b794",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/05_Fases_No_2.png",
+      "path": "img/05_Fases_No_2.png",
+      "bytes": 505,
+      "sha256": "4be0a32984448ca15edd60f279b7b6b7b2bd060cceacd3f27a700f79dda84b96",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/05_Fases_No_3.png",
+      "path": "img/05_Fases_No_3.png",
+      "bytes": 620,
+      "sha256": "75cf1c7e9b2876df6a2fe8ba64bc0afd9cc597c3130cafde2d457e824a9e2db2",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/05_Fases_No_4.png",
+      "path": "img/05_Fases_No_4.png",
+      "bytes": 452,
+      "sha256": "b960552e44f4954d7d293df00c55de818bab8e5686b2effc15b8a8c47f5118a8",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/05_Fases_No_5.png",
+      "path": "img/05_Fases_No_5.png",
+      "bytes": 512,
+      "sha256": "d9393b2658f7f916b1bdaf0cd9634fdeef5eae1b6e7bc8a39e0cf4ed5f606314",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/06_1_Fecha_negra.png",
+      "path": "img/06_1_Fecha_negra.png",
+      "bytes": 1413,
+      "sha256": "9165c6176e8dc929f120b96a1bf6675a7474af9ff490814deeecdceadd594ade",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/06_1_Fechas_Flecha negra.png",
+      "path": "img/06_1_Fechas_Flecha negra.png",
+      "bytes": 1378,
+      "sha256": "a1d52b0f7cd8c235f46f6b2772533c17f04754cfd2fcbd2f0b3d535da77b6ee5",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/06_Equipo_Finalista.png",
+      "path": "img/06_Equipo_Finalista.png",
+      "bytes": 21527,
+      "sha256": "21c220267a3e54ee5479e357199bb9401e63bae402638fe5a79a9f926c15d0e7",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/06_Equipo_Ganador.png",
+      "path": "img/06_Equipo_Ganador.png",
+      "bytes": 22233,
+      "sha256": "2bc5d45a60b6cf1fe2476944403237629e8fcc68ea3dda36e5dbf9599275caca",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/06_Fecha_10_Novg.png",
+      "path": "img/06_Fecha_10_Novg.png",
+      "bytes": 6137,
+      "sha256": "5fa2300bdab0951f54ca59a60c51d55065513f8ac013891b483a6a8badb1742b",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/06_Fecha_12_Novg.png",
+      "path": "img/06_Fecha_12_Novg.png",
+      "bytes": 6057,
+      "sha256": "8e61dd842ae355c3740371e0b685b3b3d2452c78f94e900b9094dc6e5d8d0369",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/06_Fecha_13_Novg.png",
+      "path": "img/06_Fecha_13_Novg.png",
+      "bytes": 6250,
+      "sha256": "6e4b43897a6d14b565d8f2b2d3425fb4f44b935352243943fb666e661abd89af",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/06_Fecha_15_Octg.png",
+      "path": "img/06_Fecha_15_Octg.png",
+      "bytes": 5930,
+      "sha256": "04a945c8d023623f2ab88d09a75bcd9ca4599d6395e1e7b994c4acbc0dfd78d8",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/06_Fecha_28_Juliog.png",
+      "path": "img/06_Fecha_28_Juliog.png",
+      "bytes": 6109,
+      "sha256": "eaee19bedb1a119f7dd5bfe65d602b2abb9d01c0b05985ed7fb2a6df2aee63c7",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/06_Fecha_2_Sepg.png",
+      "path": "img/06_Fecha_2_Sepg.png",
+      "bytes": 6155,
+      "sha256": "af9d18fef5b3dc19ef194ee7e85c4e1ddd7ad05bc5c02243487d6d353beee5b8",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/06_Fecha_30_Sepg.png",
+      "path": "img/06_Fecha_30_Sepg.png",
+      "bytes": 6885,
+      "sha256": "f11c0bcb9ddee646c762a93495632fab718d71b3147e368e9953dcc3fbd3a2ef",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/06_Fecha_31_Octg.png",
+      "path": "img/06_Fecha_31_Octg.png",
+      "bytes": 6063,
+      "sha256": "64baaea85604b5a89af34be826dac05a7035c673fdb25e8cad6738915cf14bdd",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/06_Fechas_Flechag.png",
+      "path": "img/06_Fechas_Flechag.png",
+      "bytes": 3250,
+      "sha256": "88357b763512ae1eee82a19cce683f245d1ebebb057559ea74772ef7af53a204",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/06_Fechas_Linea_Abajo.png",
+      "path": "img/06_Fechas_Linea_Abajo.png",
+      "bytes": 2314,
+      "sha256": "6e97614567ec5ca78ad6770136645542aa8e7f2780624a4637449f19f4c4ead4",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/06_Fechas_Linea_Arriba.png",
+      "path": "img/06_Fechas_Linea_Arriba.png",
+      "bytes": 2321,
+      "sha256": "19e55e31110f6c9d77b993772aa6994e223c468667e74b363f6fff0e5f1d62f6",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/06_Fechas_Linea_Der.png",
+      "path": "img/06_Fechas_Linea_Der.png",
+      "bytes": 3052,
+      "sha256": "78f7cbd4b34bb050cb36478203af732e318ee52270ec0f00062bad2284a34f74",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/06_Fechas_Linea_Izq.png",
+      "path": "img/06_Fechas_Linea_Izq.png",
+      "bytes": 3000,
+      "sha256": "32aa857a51b205cf91022505b49c909caecafa2a8f2131aaa7875fefc947419c",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/07_Preguntas_Linea_Abajo.png",
+      "path": "img/07_Preguntas_Linea_Abajo.png",
+      "bytes": 2336,
+      "sha256": "29b7a258e8ea175bb21d75a2b7d91af8b0fa07d76004cbddfe00508a3304dd02",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/07_Preguntas_Linea_Arriba.png",
+      "path": "img/07_Preguntas_Linea_Arriba.png",
+      "bytes": 2345,
+      "sha256": "7da1cdc5b1a632a72b098fdc90937d7d51acbdc2ea89d9afba816817f575b88d",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/07_Preguntas_Linea_Der.png",
+      "path": "img/07_Preguntas_Linea_Der.png",
+      "bytes": 1330,
+      "sha256": "fbaba40f8c4f635c5b5cae63e541edd52b4bb6bb67add5f2edee73ce1f6cee41",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/07_Preguntas_Linea_Izq.png",
+      "path": "img/07_Preguntas_Linea_Izq.png",
+      "bytes": 1308,
+      "sha256": "d10b837cb6546ee0bf5ad9b139a2e55bc31834bbdd11539e756672d1754ec637",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/08_Recursos_Linea_Abajo.png",
+      "path": "img/08_Recursos_Linea_Abajo.png",
+      "bytes": 3067,
+      "sha256": "0b0b0a501e882a3cb4e99721b426b3e0564857f6a9196c177693ac6631167d62",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/08_Recursos_Linea_Arriba.png",
+      "path": "img/08_Recursos_Linea_Arriba.png",
+      "bytes": 3069,
+      "sha256": "357d00850e88cbc7b9b78f9b22f05ba8e5ab028ae3c5366b29ce9a699420ceed",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/08_Recursos_Linea_Der.png",
+      "path": "img/08_Recursos_Linea_Der.png",
+      "bytes": 3186,
+      "sha256": "7dfbbb12eb493669ff159e31dc86b90497369764878b42f56903839ef11fa98e",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/08_Recursos_Linea_Izq.png",
+      "path": "img/08_Recursos_Linea_Izq.png",
+      "bytes": 3190,
+      "sha256": "3d5d2c364ad0286373c25b3b73c07df07dc7b7f8dcefd787a34cc7a422e799be",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/09_Logo_100_Anios.png",
+      "path": "img/09_Logo_100_Anios.png",
+      "bytes": 8977,
+      "sha256": "e799ecef300d1af6a1bb5ab1e5e0033db99979f8a8e7afeb57e1ecffb69da0ff",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/09_Logo_BM.png",
+      "path": "img/09_Logo_BM.png",
+      "bytes": 5689,
+      "sha256": "94140c1aa34dbaf70c70f4999435cb3d44ab639325009301e6e93cf5e4a273e5",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/EquipoGanador.JPG",
+      "path": "img/EquipoGanador.JPG",
+      "bytes": 196297,
+      "sha256": "095278acbd5b127465819e189710e498c180a4b78e3db4fa4ca277152bd49d85",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/FinalistaITS.JPG",
+      "path": "img/FinalistaITS.JPG",
+      "bytes": 203653,
+      "sha256": "847fdf38c76e9437781326a0a9cca9825758702092d801b9bd6c033ad8e578df",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/FinalistaTecMonterrey.JPG",
+      "path": "img/FinalistaTecMonterrey.JPG",
+      "bytes": 211919,
+      "sha256": "4d3c9a840bdd4037de705e0079ffdd59e5d55137b6f069d359723094ac0f4d7f",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/FinalistaUAP.JPG",
+      "path": "img/FinalistaUAP.JPG",
+      "bytes": 190433,
+      "sha256": "d42ac39a58efbb50bd020d7a28f9564754a148f20077a5f362953abb23467cbc",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/FinalistaUNAM.JPG",
+      "path": "img/FinalistaUNAM.JPG",
+      "bytes": 208770,
+      "sha256": "41dc4a815be18d136f8a2d1d4901671759c72f02128a6205d0edb0612cef873a",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/img/FinalistaUniversidadVeracruzana.JPG",
+      "path": "img/FinalistaUniversidadVeracruzana.JPG",
+      "bytes": 213208,
+      "sha256": "c2885fc6831fb2f016cb6ea44de9bdd8c1311f912bac70953bd54a3747a4a266",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/",
+      "path": "index.html",
+      "bytes": 21863,
+      "sha256": "5ec27a5adc727dd58004476bf6e9088e9c2c956ecc6b167827b0c9ddfcb02dac",
+      "content_type": "text/html; charset=ISO-8859-1"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/js/bootstrap.bundle.min.js",
+      "path": "js/bootstrap.bundle.min.js",
+      "bytes": 80721,
+      "sha256": "0833b2e9c3a26c258476c46266e6877fc75218625162e0460be9a3a098a61c6c",
+      "content_type": "application/javascript"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/js/jquery.min.js",
+      "path": "js/jquery.min.js",
+      "bytes": 129552,
+      "sha256": "645aebbf6b8e4b45c9ee639d7212fbecb5df5111f47d7f0c26ef9ccd135933c6",
+      "content_type": "application/javascript"
+    }
+  ],
+  "external_links": [
+    "https://www.banxico.org.mx",
+    "https://www.banxico.org.mx/publicaciones-y-prensa/informe-anual-sobre-las-infraestructuras-de-los-me/informes-infraestructuras-mer.html",
+    "https://www.banxico.org.mx/servicios/sistema-pagos-electronicos-in001.html",
+    "https://www.banxico.org.mx/servicios/sistema-pagos-interbancarios-001.html",
+    "https://www.banxico.org.mx/sistemas-de-pago/codi-cobro-digital-banco-me.html",
+    "https://www.banxico.org.mx/sistemas-de-pago/infraestructuras-mercados-fin.html",
+    "https://www.facebook.com/BanxicoOficial/",
+    "https://www.instagram.com/banco_de_mexico/"
+  ],
+  "failures": [
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/fonts/Poppins-Regular.woff",
+      "path": "fonts/Poppins-Regular.woff",
+      "error": "curl: (22) The requested URL returned error: 404"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/fonts/Poppins-Bold.woff",
+      "path": "fonts/Poppins-Bold.woff",
+      "error": "curl: (22) The requested URL returned error: 404"
+    },
+    {
+      "url": "https://www.banxico.org.mx/hackathonspei/js/bootstrap.bundle.min.js.map",
+      "path": "js/bootstrap.bundle.min.js.map",
+      "error": "curl: (22) The requested URL returned error: 404"
+    }
+  ]
+}

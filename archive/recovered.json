@@ -1,0 +1,35 @@
+{
+  "note": "Supplemental distribution files, not recovered from Banxico. Poppins Latin 400/700 restores intended typography; original server returned 404. Bootstrap map matches 5.3.3.",
+  "files": [
+    {
+      "path": "fonts/Poppins-Regular.woff",
+      "url": "https://cdn.jsdelivr.net/npm/@fontsource/poppins@5.2.7/files/poppins-latin-400-normal.woff",
+      "bytes": 10532,
+      "sha256": "6076b418803564833cde2aece96c51b29927ab0a98dfbe727774d1a6c6e6c445"
+    },
+    {
+      "path": "fonts/Poppins-Bold.woff",
+      "url": "https://cdn.jsdelivr.net/npm/@fontsource/poppins@5.2.7/files/poppins-latin-700-normal.woff",
+      "bytes": 10432,
+      "sha256": "927ba66258ea405f06205be694080f1126d186633c3c69cb839cfd0cfc5ee8ff"
+    },
+    {
+      "path": "js/bootstrap.bundle.min.js.map",
+      "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js.map",
+      "bytes": 332090,
+      "sha256": "5e3e0763164143baaa1ca0706b6100ba0452f911d6ce9713b48e3dbe07b35125"
+    },
+    {
+      "path": "archive/licenses/Poppins-OFL.txt",
+      "url": "https://cdn.jsdelivr.net/npm/@fontsource/poppins@5.2.7/LICENSE",
+      "bytes": 6175,
+      "sha256": "5c4a92c8f8ce0ab211f4c72889d82383c9644546115d9ba39a4f2d5b8f37014b"
+    },
+    {
+      "path": "archive/licenses/Bootstrap-MIT.txt",
+      "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/LICENSE",
+      "bytes": 1093,
+      "sha256": "8c14611ae41ac6fd543c13349f22188eb12c69b3e59105c5eca3925a8e4eca3e"
+    }
+  ]
+}

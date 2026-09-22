@@ -1,0 +1,583 @@
+@charset "iso-8859-1";
+/* CSS Document */
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+/* Aplicar la fuente regular a los párrafos */
+p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+}
+
+/* Aplicar la fuente en negrita a los encabezados h2 */
+h2 ,h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+/* Aplicar la fuente Poppins a los enlaces del menú */
+.nav-link {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold; 
+}
+
+/* Fondo general del sitio */
+body {
+ font-family: 'Poppins', sans-serif;
+background: url('../img/00_Fondo.jpg') no-repeat center center fixed;
+background-size: cover;
+color: #fff;
+font-weight: 500;
+font-size: 1.5rem;
+}
+
+/* Fondo con imagen para la navbar */
+.navbar {
+background: #0a1b23;
+background-size: cover;
+border-bottom: 7px solid #636D72; /* Borde inferior */
+}
+
+.navbar .container,
+.navbar-nav .nav-link,
+.navbar-brand {
+position: relative;
+z-index: 1;
+}
+
+.nav-item {
+font-size: 1.3rem;
+}
+
+.menu-item {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar-toggler {
+    
+    color: rgb(243 237 237 / 65%);
+    border: 2px solid #00ff00;
+    
+}
+
+
+.hack_logo {
+    height: 5rem;
+}
+
+.rounded-toggler {
+  border: 2px solid #00ff00; /* Color del contorno */
+  border-radius: 50%;        /* Hace el contorno redondo */
+  width: 50px;
+  height: 50px;
+  padding: 8px;
+  background-color: transparent;
+}
+
+.rounded-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffffff' viewBox='0 0 30 30'%3E%3Cpath stroke='%2300ff00' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    color: rgb(243 237 237 / 65%);
+}
+
+/* Ícono verde al hacer hover */
+.navbar-toggler:hover .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%2300ff00' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Ícono verde cuando está abierto (usamos .collapsed para invertir lógica) */
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%2300ff00' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+section {
+padding: 40px 0;
+}
+
+footer {
+padding: 20px 0;
+border-top: 7px solid #636D72; /* Borde inferior */
+}
+
+
+/*color de textos*/
+.textver{
+color: #00ff00;
+font-weight: bolder !important;
+/*font-size: 1.6rem;*/
+}
+
+.textamar{
+color: #ffff00;
+font-weight: bolder !important;
+/*font-size: 1.6rem;*/
+}
+
+.textaqua{
+color: #00ffff;
+font-weight: bolder !important;
+/*font-size: 1.6rem;*/
+}
+
+.textama{
+color: #00ff00;
+font-weight: bolder !important;
+/*font-size: 1.6rem;*/
+}
+
+.textros{
+color: #FF33D6;
+font-weight: bolder !important;
+/*font-size: 1.6rem;*/
+}
+
+.textobsc{
+color: #0B1B23;
+font-weight: bolder !important;
+/*font-size: 1.6rem;*/
+}
+
+.textgris{
+color: #636d72;
+font-weight: bolder !important;
+/*font-size: 1.6rem;*/
+}
+
+/*divisores*/
+.border-bottom-ver 
+{
+    border-bottom: 3px solid #00ff00;
+    padding-bottom: .7rem;
+    padding-top: .5rem;
+}
+
+.textsubra
+{
+    text-decoration: underline;
+    text-decoration-color: #00ff00;
+    
+}
+
+/* Cards */
+
+.card-bg-image {
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)); /* Gradiente de negro transparente arriba a más opaco abajo */
+  color: white; /* Para que el texto sea visible sobre fondo oscuro */
+      position: relative;
+    border-radius: 0px;
+      overflow: hidden;
+    }
+
+    .card-overlay {
+      background-color: rgba(0, 0, 0, 0.4); /* Oscurece el fondo */
+      padding: 2rem;
+      color: white; /* Asegura texto blanco */
+    }
+
+    .card-overlay a,
+    .card-overlay a.btn {
+      color: white; /* Enlaces blancos */
+    }
+
+    .card-overlay a.btn:hover {
+      color: black; /* O cambia según lo que prefieras */
+      background-color: white;
+    }
+
+/* css para bordes de cards*/
+/*color aqua*/
+.gradient-card-aqua {
+  position: relative;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)); /* Gradiente de negro transparente arriba a más opaco abajo */
+  color: white; /* Para que el texto sea visible sobre fondo oscuro */ 
+  backdrop-filter: blur(6px);
+ /* border-radius: 0.5rem;*/
+  overflow: hidden;
+  padding: 2rem;
+  z-index: 0;
+}
+
+.gradient-card-aqua::before,
+.gradient-card-aqua::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  background-repeat: no-repeat; /* Cambiado para no repetir las imágenes */
+  background-size: cover; /* Hace que la imagen cubra completamente el área */
+}
+
+
+/* Escritorio: bordes izquierdo y derecho */
+@media (min-width: 768px) {
+  .gradient-card-aqua::before,
+  .gradient-card-aqua::after {
+    width: 19px; /* Mantén el ancho de los bordes */
+    height: 100%;
+    top: 0;
+    background-size: auto 100%; /* Mantén la altura al 100%, pero el ancho ajustado a su proporción original */
+  }
+
+  .gradient-card-aqua::before {
+    left: 0;
+    background-image: url('../img/05_Fases_Linea_Izq.png'); /* Imagen izquierda */
+    background-position: left center;
+  }
+
+  .gradient-card-aqua::after {
+    right: 0;
+    background-image: url('../img/05_Fases_Linea_Der.png'); /* Imagen derecha */
+    background-position: right center;
+  }
+}
+/* Móvil: bordes arriba y abajo */
+@media (max-width: 767.98px) {
+  .gradient-card-aqua::before,
+  .gradient-card-aqua::after {
+    height: 15px;
+    width: 100%;
+    left: 0;
+    background-repeat: no-repeat; /* Asegura que las imágenes no se repitan */
+    background-size: cover; /* Hace que la imagen cubra todo el borde */
+  }
+
+  .gradient-card-aqua::before {
+    top: 0;
+    background-image: url('../img/05_Fases_Linea_Arriba.png'); /* Imagen superior */
+    background-position: top center; /* Asegura que la imagen se ajuste al borde superior */
+  }
+
+  .gradient-card-aqua::after {
+    bottom: 0;
+    background-image: url('../img/05_Fases_Linea_Abajo.png'); /* Imagen inferior */
+    background-position: bottom center; /* Asegura que la imagen se ajuste al borde inferior */
+  }
+}
+
+/* Asegura que el contenido esté por encima de los bordes */
+.gradient-card-aqua > * {
+  position: relative;
+  z-index: 2;
+}
+
+
+/*amarillo*/
+
+.gradient-card-ama {
+  position: relative;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)); /* Gradiente de negro transparente arriba a más opaco abajo */
+  color: white; /* Para que el texto sea visible sobre fondo oscuro */ 
+  backdrop-filter: blur(6px);
+ /* border-radius: 0.5rem;*/
+  overflow: hidden;
+  padding: 2rem;
+  z-index: 0;
+}
+
+.gradient-card-ama::before,
+.gradient-card-ama::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  background-repeat: no-repeat; /* Cambiado para no repetir las imágenes */
+  background-size: cover; /* Hace que la imagen cubra completamente el área */
+}
+
+
+/* Escritorio: bordes izquierdo y derecho */
+@media (min-width: 768px) {
+  .gradient-card-ama::before,
+  .gradient-card-ama::after {
+    width: 22px; /* Mantén el ancho de los bordes */
+    height: 100%;
+    top: 0;
+    background-size: auto 100%; /* Mantén la altura al 100%, pero el ancho ajustado a su proporción original */
+  }
+
+  .gradient-card-ama::before {
+    left: 0;
+    background-image: url('../img/06_Fechas_Linea_Izq.png'); /* Imagen izquierda */
+    background-position: left center;
+  }
+
+  .gradient-card-ama::after {
+    right: 0;
+    background-image: url('../img/06_Fechas_Linea_Der.png'); /* Imagen derecha */
+    background-position: right center;
+  }
+}
+/* Móvil: bordes arriba y abajo */
+@media (max-width: 767.98px) {
+  .gradient-card-ama::before,
+  .gradient-card-ama::after {
+    height: 10px;
+    width: 100%;
+    left: 0;
+    background-repeat: no-repeat; /* Asegura que las imágenes no se repitan */
+    background-size: cover; /* Hace que la imagen cubra todo el borde */
+  }
+
+  .gradient-card-ama::before {
+    top: 0;
+    background-image: url('../img/06_Fechas_Linea_Arriba.png'); /* Imagen superior */
+    background-position: top center; /* Asegura que la imagen se ajuste al borde superior */
+  }
+
+  .gradient-card-ama::after {
+    bottom: 0;
+    background-image: url('../img/06_Fechas_Linea_Abajo.png'); /* Imagen inferior */
+    background-position: bottom center; /* Asegura que la imagen se ajuste al borde inferior */
+  }
+}
+
+/* Asegura que el contenido esté por encima de los bordes */
+.gradient-card-ama > * {
+  position: relative;
+  z-index: 2;
+}
+
+
+/*color rosa*/
+
+.gradient-card-rosa {
+  position: relative;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)); /* Gradiente de negro transparente arriba a más opaco abajo */
+  color: white; /* Para que el texto sea visible sobre fondo oscuro */ 
+  backdrop-filter: blur(6px);
+ /* border-radius: 0.5rem;*/
+  overflow: hidden;
+  padding: 2rem;
+  z-index: 0;
+}
+
+.gradient-card-rosa::before,
+.gradient-card-rosa::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  background-repeat: no-repeat; /* Cambiado para no repetir las imágenes */
+  background-size: cover; /* Hace que la imagen cubra completamente el área */
+}
+/* Escritorio: bordes izquierdo y derecho */
+@media (min-width: 768px) {
+  .gradient-card-rosa::before,
+  .gradient-card-rosa::after {
+    width: 22px; /* Mantén el ancho de los bordes */
+    height: 100%;
+    top: 0;
+    background-size: auto 100%; /* Mantén la altura al 100%, pero el ancho ajustado a su proporción original */
+  }
+
+  .gradient-card-rosa::before {
+    left: 0;
+    background-image: url('../img/07_Preguntas_Linea_Izq.png'); /* Imagen izquierda */
+    background-position: left center;
+  }
+
+  .gradient-card-rosa::after {
+    right: 0;
+    background-image: url('../img/07_Preguntas_Linea_Der.png'); /* Imagen derecha */
+    background-position: right center;
+  }
+}
+/* Móvil: bordes arriba y abajo */
+@media (max-width: 767.98px) {
+  .gradient-card-rosa::before,
+  .gradient-card-rosa::after {
+    height: 10px;
+    width: 100%;
+    left: 0;
+    background-repeat: no-repeat; /* Asegura que las imágenes no se repitan */
+    background-size: cover; /* Hace que la imagen cubra todo el borde */
+  }
+
+  .gradient-card-rosa::before {
+    top: 0;
+    background-image: url('../img/07_Preguntas_Linea_Arriba.png'); /* Imagen superior */
+    background-position: top center; /* Asegura que la imagen se ajuste al borde superior */
+  }
+
+  .gradient-card-rosa::after {
+    bottom: 0;
+    background-image: url('../img/07_Preguntas_Linea_Abajo.png'); /* Imagen inferior */
+    background-position: bottom center; /* Asegura que la imagen se ajuste al borde inferior */
+  }
+}
+
+/* Asegura que el contenido esté por encima de los bordes */
+.gradient-card-rosa > * {
+  position: relative;
+  z-index: 2;
+}
+
+/*color verde*/
+
+.gradient-card-ver {
+  position: relative;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)); /* Gradiente de negro transparente arriba a más opaco abajo */
+  color: white; /* Para que el texto sea visible sobre fondo oscuro */ 
+  backdrop-filter: blur(6px);
+ /* border-radius: 0.5rem;*/
+  overflow: hidden;
+  padding: 2rem;
+  z-index: 0;
+}
+
+.gradient-card-ver::before,
+.gradient-card-ver::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  background-repeat: no-repeat; /* Cambiado para no repetir las imágenes */
+  background-size: cover; /* Hace que la imagen cubra completamente el área */
+}
+
+
+/* Escritorio: bordes izquierdo y derecho */
+@media (min-width: 768px) {
+  .gradient-card-ver::before,
+  .gradient-card-ver::after {
+    width: 22px; /* Mantén el ancho de los bordes */
+    height: 100%;
+    top: 0;
+    background-size: auto 100%; /* Mantén la altura al 100%, pero el ancho ajustado a su proporción original */
+  }
+
+  .gradient-card-ver::before {
+    left: 0;
+    background-image: url('../img/08_Recursos_Linea_Izq.png'); /* Imagen izquierda */
+    background-position: left center;
+  }
+
+  .gradient-card-ver::after {
+    right: 0;
+    background-image: url('../img/08_Recursos_Linea_Der.png'); /* Imagen derecha */
+    background-position: right center;
+  }
+}
+/* Móvil: bordes arriba y abajo */
+@media (max-width: 767.98px) {
+  .gradient-card-ver::before,
+  .gradient-card-ver::after {
+    height: 10px;
+    width: 100%;
+    left: 0;
+    background-repeat: no-repeat; /* Asegura que las imágenes no se repitan */
+    background-size: cover; /* Hace que la imagen cubra todo el borde */
+  }
+
+  .gradient-card-ver::before {
+    top: 0;
+    background-image: url('../img/08_Recursos_Linea_Arriba.png'); /* Imagen superior */
+    background-position: top center; /* Asegura que la imagen se ajuste al borde superior */
+  }
+
+  .gradient-card-ver::after {
+    bottom: 0;
+    background-image: url('../img/08_Recursos_Linea_Abajo.png'); /* Imagen inferior */
+    background-position: bottom center; /* Asegura que la imagen se ajuste al borde inferior */
+  }
+}
+
+/* Asegura que el contenido esté por encima de los bordes */
+.gradient-card-ver > * {
+  position: relative;
+  z-index: 2;
+}
+
+/*acordeon*/
+  /* Fondo transparente para el acordeón */
+    .accordion-item {
+    background-color: transparent !important;
+    border: 0;
+    
+    }
+
+    /* Botón de apertura con texto blanco */
+    .accordion-button {
+      background-color: transparent !important;
+      color: white; /* Establece el texto del botón en blanco */
+      border-bottom: 3px solid #00ff00; /* Puedes ajustar el borde si lo deseas */
+      font-size: 1.6rem;
+    }
+
+    /* Para cuando el acordeón está abierto */
+    .accordion-button:not(.collapsed) {
+      background-color: transparent !important;
+      color: white; /* El texto sigue blanco cuando está abierto */
+      border-bottom: 3px solid #00ff00; /* Ajusta el borde si lo deseas */
+    }
+
+    /* Para que el borde del acordeón sea más sutil */
+    .accordion-button {
+      box-shadow: none;
+    }
+
+    /* Texto dentro del contenido del acordeón en blanco */
+    .accordion-body {
+      color: white; /* Establece el texto en blanco */
+    }
+
+.accordion-button::after{
+    filter: brightness(0) saturate(100%)invert(57%) sepia(100%) saturate(7485%) hue-rotate(82deg) brightness(106%)contrast(101%);
+
+}
+
+
+
+
+/*scroll anclas*/
+
+
+@media (max-width: 992px) {
+    .divp {
+        scroll-margin-top: 4em;
+    }
+}
+@media (min-width: 993px) {
+    .divp {
+        scroll-margin-top: 6em;
+    }
+}
+
+
+/*nombre de ganadores*/
+
+.nombre {
+    padding-left: .3rem;
+}
+
+@media (min-width: 991px)
+{
+    .nombre{
+        padding-left: 7rem;
+        
+    }
+}
+
+
+
+.bordeama{
+    border: 4px solid yellow;
+    border-radius: 3px;
+}
+
+
+.bordeaqua{
+    border: 4px solid aqua;
+    border-radius: 3px;
+}

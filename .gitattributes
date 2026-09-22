@@ -1,0 +1,8 @@
+# Preserve downloaded files byte-for-byte, including original CRLF/encoding.
+index.html -text
+css/** -text
+js/** -text
+img/** -text
+fonts/** -text
+d/** -text
+favicon.ico -text

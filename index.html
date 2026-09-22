@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="iso-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Hackaton Spei Banxico">
+<meta name="author" content="Banco de México">
+<meta name="generator" content="Banco de México">    
+<title>Hackathon Spei&reg; Banxico</title>
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/hacka.css" rel="stylesheet" />
+<!-- Bootstrap JS --> 
+<script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+     <!--favicon-->  
+<link rel="shortcut icon" href="favicon.ico"/>
+</head>
+<body>
+    <!-- Navegacion -->
+<nav class="navbar navbar-expand-lg py-1 fixed-top" aria-label="Hackathon Spei Banxico" role="navigation">
+<div class="container">
+<!-- Logo -->
+<a class="navbar-brand" href="index.html">  
+<img src="img/01_Menu_Hackathon.png" alt="Ir al inicio del sitio" class="d-inline-block align-text-top hack_logo"  style="min-width: 2rem;">
+</a>
+ <!-- Boton hamburguesa -->
+<button id="bt" class="navbar-toggler rounded-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Navegacion">
+<span class="navbar-toggler-icon"></span>
+</button>
+<!-- Menu -->
+<div class="offcanvas offcanvas-end offcanvas-custom text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="Boton de menu" aria-modal="true" role="dialog">
+<div class="offcanvas-header">
+<a href="index.html"> 
+<img src="img/01_Menu_Hackathon.png" alt="Ir al inicio del sitio" class=" offcanvas-title d-inline-block align-text-top" id="offcanvasNavbar2Label" width="50%">
+    </a>
+<button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Cerrar"></button>
+</div>
+<div class="offcanvas-body my-4" id="topactive">
+<ul id="ulM" class="navbar-nav justify-content-center pe-3" role="menu" aria-labelledby="Menú principal del Hackathon Spei Banxico">
+<li class="nav-item menu-item" role="none">
+<a class="nav-link d-flex align-items-center text-white mx-2" role="menuitem" href="d/HS2025_bases.pdf" target="_blank" title="Documento PDF, se abre en otra página">Bases</a>
+</li>
+<li class="nav-item menu-item" role="none">
+<a class="nav-link d-flex align-items-center text-white mx-2 text-center" role="menuitem" href="#fechas" style="line-height: 1; margin-top: .3;">Fechas importantes</a>
+</li>
+<li class="nav-item menu-item" role="none">
+<a class="nav-link d-flex align-items-center text-white mx-2 text-center" role="menuitem" href="#pregfrec" style="line-height: 1; margin-top: .3;">Preguntas frecuentes</a>
+</li>
+<li class="nav-item menu-item" role="none">
+<a class="nav-link d-flex align-items-center text-white mx-2" role="menuitem" href="#recursos">Recursos</a>
+</li>
+<li class="nav-item menu-item" role="none">
+<p class="nav-link d-flex align-items-centermx-2" style="color: grey">Registro</p>
+</li>
+</ul>
+    
+<!-- Redes sociales -->
+<div class="d-flex mt-2">
+<a class="nav-link mx-2" href="https://www.facebook.com/BanxicoOficial/" title="Página oficial del Banco de México en Facebook, se abre en otra página" target="_blank"><img src="img/01_Icono_Facebook.png" alt="" class="img-fluid" style="min-width: 2rem;"></a>
+<a class="nav-link mx-2" href="https://www.instagram.com/banco_de_mexico/" title="Página oficial del Banco de México en Instagram, se abre en otra página" target="_blank"><img src="img/01_Icono_Instagram.png" alt="" class="img-fluid" style="min-width: 2rem;"></a>
+</div>
+</div>
+</div>
+</div>
+</nav>    
+<!-- Contenido -->
+<main>
+<div class="container-fluid">
+<div class="row">
+<!--seccion inicio-->
+<section id="inicio">
+<div class="container mt-md-1 mt-5">
+<div class="row justify-content-center text-center pt-5 mt-lg-5">
+<div class="col-12 col-md-6 my-3 d-flex justify-content-center">
+<img src="img/02_Hackathon_SPEI.png" class="img-fluid" alt="">
+</div>
+<div class="col-12 col-md-6 mt-3 d-flex justify-content-center ">
+<img src="img/03_Que_es_Hackathon.png" class="img-fluid" alt="">
+ </div>
+</div>
+</div>               
+</section>
+<!--seccion bases-->
+<section id="bases" class="divp">
+<div class="container">
+<div class="row justify-content-center text-center">
+<div class="col-12 col-md-5 my-3 d-flex justify-content-center">
+<img src="img/04_Boton_Registrog.png" class="img-fluid" alt="">
+</div>
+<div class="col-12 col-md-5 my-3 d-flex justify-content-center">
+<a href="d/HS2025_bases.pdf" target="_blank" title="Documento PDF, se abre en otra página"><img src="img/04_Boton_Bases.png" class="img-fluid" alt=""></a>
+ </div>
+</div>
+</div>
+</section>
+<!--seccion ganadores-->
+<section id="ganadores">
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-12">
+<div class="card card-bg-image gradient-card-ama">
+<div class="card-body">
+<div class="row my-5">
+<h2><span class="textamar" style="text-align: center; display: block;">¡Felicidades al equipo ganador!</span></h2>
+</div>
+<div class="row">
+    <div class="col-12 mb-5 text-center">
+    <img src="img/EquipoGanador.JPG" alt="" class="img-fluid bordeama mx-auto d-block" />
+    </div>
+<div class="col-lg-6 col-md-12">
+<p><span class="textama">Alumnos:</span> Paul Sebastian Rosales Lamarque</p>
+<p class="nombre">Francisco Ivan Torres Flores</p>
+<p class="nombre">Carlos Manuel Ibarra Cervantes</p>
+</div>
+<div class="col-lg-6 col-md-12 text-center">
+<p><span class="textama">Asesor:</span> Luis Enrique Morales Aguilar</p>
+</div>
+</div>
+<div class="row">
+<div class="col-12">
+<p><span class="textama">Universidad:</span> Benemérita Universidad Autónoma De Puebla</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>    
+      
+<!--seccion semifinal-->
+<section id="semifinal">
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-12">
+<div class="card card-bg-image gradient-card-aqua">
+<div class="card-body">
+<div class="row my-5">
+<h2><span class="textaqua" style="text-align: center; display: block;">¡Felicidades a los equipos finalistas!</span></h2>
+</div>
+<div class="row">
+<div class="col-md-6 order-md-1 order-start mt-4">
+<img src="img/FinalistaUAP.JPG" alt="" class="img-fluid bordeaqua mx-auto d-block"/>
+</div>        
+<div class="col-md-6 order-md-2 mt-2">
+<p><span class="textama">Alumnos:</span> Julio Cuellar Cortes</p>
+<p class="nombre">Jean Carlos Amado Barrales</p>
+<p class="nombre">Jose Mario Pérez Méndez</p>
+<p class="nombre">Julio Ignacio Gonzaga Morales</p>
+<p class="nombre">Uriel Israel Jiménez Juárez </p>
+<p><span class="textama">Asesor:</span> Carlos Leopoldo Carreon Díaz De León</p>
+    <p><span class="textama">Universidad:</span> Benemérita Universidad Autónoma De Puebla</p>
+</div>
+</div>    
+    </div>
+<hr class="border-0" style="height:6px; background-color: #00FFFF; opacity: 1">
+
+<div class="row">    
+<div class="col-md-6 order-md-1 order-start mt-4">
+<img src="img/FinalistaITS.JPG" alt="" class="img-fluid bordeaqua mx-auto d-block" />
+</div>       
+<div class="col-md-6 order-md-2 mt-2">
+<p><span class="textama">Alumnos:</span> Salvador Lozano Galvan</p>
+<p class="nombre">Diego Alonso Gomez Rodriguez</p>
+<p class="nombre">Felipe de Jesus Zacarias Hernandez</p>
+<p class="nombre">Samuel Alejandro Vilchis Cisneros</p>
+<p class="nombre">Jaime Eduardo Zermeño Andrade</p>
+<p><span class="textama">Asesor:</span> Valentin Calzada Ledesma</p>
+<p><span class="textama">Universidad:</span> Instituto Tecnológico Superior de Purísima del Rincón</p>
+</div>
+</div>
+<hr class="border-0" style="height:6px; background-color: #00FFFF; opacity: 1">
+    
+
+<div class="row">   
+<div class="col-md-6 order-md-1 order-start mt-4">
+<img src="img/FinalistaTecMonterrey.JPG" alt="" class="img-fluid bordeaqua mx-auto d-block"/>
+</div>
+<div class="col-md-6 order-md-2 mt-2">
+<p><span class="textama">Alumnos:</span> Leonardo Cervantes Pérez</p>
+<p class="nombre">Humberto Mondragón García</p>
+<p class="nombre">Liliana Valdovinos Catarino</p>
+<p class="nombre">Juan Enrique Ayala Zapata</p>
+<p class="nombre">Ian Hernández Hernández</p>
+<p><span class="textama">Asesor:</span> Juan Manuel Ledesma Rangel</p>
+    <p><span class="textama">Universidad:</span> Instituto Tecnológico y de Estudios Superiores de Monterrey</p>
+</div>
+    </div>
+<hr class="border-0" style="height:6px; background-color: #00FFFF; opacity: 1">    
+    
+<div class="row">
+    <div class="col-md-6 order-md-1 order-start mt-4">
+<img src="img/FinalistaUniversidadVeracruzana.JPG" alt="" class="img-fluid bordeaqua mx-auto d-block"/>
+</div>
+    
+<div class="col-md-6 order-md-2 mt-2">
+<p><span class="textama">Alumnos:</span> Paloma Osiris Báez Lara</p>
+<p class="nombre">Miriam Ramírez Zárate</p>
+<p class="nombre">Alejandro Sánchez Marín</p>
+<p class="nombre">Ares Juddá Rivera Soto</p>
+    <p><span class="textama">Asesor:</span> Juan Carlos Pérez Arriaga</p>
+<p><span class="textama">Universidad:</span> Universidad Veracruzana</p>
+</div>
+    </div>
+<hr class="border-0" style="height:6px; background-color: #00FFFF; opacity: 1"> 
+    
+<div class="row">
+ <div class="col-md-6 order-md-1 order-start mt-4">
+<img src="img/FinalistaUNAM.JPG" alt="" class="img-fluid bordeaqua mx-auto d-block"/>
+</div>
+<div class="col-md-6 order-md-2 mt-2">
+<p><span class="textama">Alumnos:</span> Alan Hernandez Fernandez</p>
+<p class="nombre">Fernanda Tapia Olvera</p>
+<p class="nombre">Jesus Rodrigo Lozano Yañez</p>
+<p class="nombre">Luis Eduardo García Jiménez</p>
+    <p><span class="textama">Asesor:</span> Daniel González Zuñiga</p>
+<p><span class="textama">Universidad:</span> Universidad Nacional Autónoma de México - Ciudad Universitaria</p>
+</div>
+</div>   
+</div> 
+</div>
+</div>
+</div>
+</section>     
+
+<!--seccion fases-->
+<section id="fases">
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-12">
+<div class="card card-bg-image gradient-card-aqua">
+<div class="card-body">
+ <!--accordion-->  
+<div class="row my-3">
+<div class="border-bottom border-secondary border-3 ">
+<div class="col mx-auto d-flex">
+<img src="img/05_Fases_No_1.png" alt="" class="img-fluid mb-3" style="margin-left: 1.8rem;"> <h3  class="mx-2" style="color: grey">Arma tu equipo</h3>
+</div>
+</div>   
+</div>   
+ <div class="row my-3">
+<div class="border-bottom border-secondary border-3 ">
+<div class="col mx-auto d-flex">
+<img src="img/05_Fases_No_2.png" alt="" class="img-fluid mb-3" style="margin-left: 1.8rem;"> <h3  class="mx-2" style="color: grey">Inscr&iacute;bete</h3>
+</div>
+</div>   
+</div>   
+<div class="row my-3">
+<div class="border-bottom border-secondary border-3 ">
+<div class="col mx-auto d-flex">
+<img src="img/05_Fases_No_3.png" alt="" class="img-fluid mb-3" style="margin-left: 1.8rem;"> <h3  class="mx-2" style="color: grey">Manda tu trabajo</h3>
+</div>
+</div>   
+</div> 
+    <div class="row my-3">
+<div class="border-bottom border-secondary border-3 ">
+<div class="col mx-auto d-flex">
+<img src="img/05_Fases_No_4.png" alt="" class="img-fluid mb-3" style="margin-left: 1.8rem;"> <h3  class="mx-2" style="color: grey">Selecci&oacute;n semifinalistas</h3>
+</div>
+</div>   
+</div>
+<div class="row my-3">
+<div class="border-bottom border-secondary border-3 ">
+<div class="col mx-auto d-flex">
+<img src="img/05_Fases_No_5.png" alt="" class="img-fluid mb-3" style="margin-left: 1.8rem;"> <h3  class="mx-2" style="color: grey">Segunda etapa del Hackathon</h3>
+</div>
+</div>   
+</div>      
+<!--accordion-->
+</div>
+</div>
+</div>
+</div>
+</div>   
+</section>    
+<!--seccion finalistas-->   
+<section id="finalistas">
+<div class="container">
+<div class="row justify-content-center text-center">
+<div class="col-12 col-md-5 my-3 d-flex justify-content-center">
+<img src="img/06_Equipo_Finalista.png" class="img-fluid" alt="">
+</div>
+<div class="col-12 col-md-5 my-3 d-flex justify-content-center">
+<img src="img/06_Equipo_Ganador.png" class="img-fluid" alt="">
+ </div>
+</div>
+</div>
+</section>
+<!--seccion fechas-->    
+<section id="fechas" class="divp">   
+<div class="container my-5">
+<div class="card card-bg-image gradient-card-ama">
+<div class="card-body">
+<h2><span class="textama">Fechas</span> <span class="textver">importantes</span></h2>
+<!-- Renglones -->
+<div class="renglon row align-items-center mb-2">
+<div class="col-12 col-md-6 col-lg-4 text-center mb-3">
+<img src="img/06_Fecha_28_Juliog.png" alt="" class="img-fluid" width="70">
+<img src="img/06_Fechas_Flechag.png" alt="" class="img-fluid" width="40">
+<img src="img/06_Fecha_30_Sepg.png" alt="" class="img-fluid" width="70">
+</div>
+<div class="col-12 col-md-6 col-lg-8">
+<h3 class="text-secondary">Per&iacute;odo de inscripciones.</h3>
+<p class="text-secondary">A partir de las 00:00 horas del 28 de julio hasta las 14:00 horas del 30 de septiembre (tiempo de la Ciudad de México).</p>
+</div>
+</div>
+<!-- Renglones -->
+<div class="renglon row align-items-center mb-2">
+<div class="col-12 col-md-6 col-lg-4 text-center mb-3">
+<img src="img/06_Fecha_2_Sepg.png" alt="" class="img-fluid" width="70">
+<img src="img/06_Fechas_Flechag.png" alt="" class="img-fluid" width="40">
+<img src="img/06_Fecha_15_Octg.png" alt="" class="img-fluid" width="70">
+</div>
+<div class="col-12 col-md-6 col-lg-8">
+<p class="text-secondary">Primera etapa de evaluaci&oacute;n</p>
+</div>
+</div>
+<!-- Renglones -->
+<div class="renglon row align-items-center mb-2">
+<div class="col-12 col-md-6 col-lg-4 text-center mb-3">
+<img src="img/06_Fecha_15_Octg.png" alt="" class="img-fluid" width="70">
+<img src="img/06_Fechas_Flechag.png" alt="" class="img-fluid" width="40">
+<img src="img/06_Fecha_31_Octg.png" alt="" class="img-fluid" width="70">
+</div>
+<div class="col-12 col-md-6 col-lg-8">
+<p class="text-secondary">Publicaci&oacute;n de finalistas y recepci&oacute;n de documentos</p>
+</div>
+</div>
+<!-- Renglones -->
+<div class="renglon row align-items-center mb-2">
+<div class="col-12 col-md-6 col-lg-4 text-center mb-3">
+<img src="img/06_Fecha_10_Novg.png" alt="" class="img-fluid" width="70">
+<img src="img/06_Fechas_Flechag.png" alt="" class="img-fluid" width="40">
+<img src="img/06_Fecha_12_Novg.png" alt="" class="img-fluid" width="70">
+</div>
+<div class="col-12 col-md-6 col-lg-8">
+<p class="text-secondary">Segunda etapa de evaluaci&oacute;n</p>
+</div>
+</div>
+<!-- Renglones -->
+<div class="renglon row align-items-center mb-2">
+<div class="col-12 col-md-6 col-lg-4 text-center mb-3">
+<img src="img/06_Fecha_13_Novg.png" alt="" class="img-fluid" width="70">
+<img src="img/06_1_Fechas_Flecha negra.png" alt="" class="img-fluid" width="40">
+<img src="img/06_1_Fecha_negra.png" alt="" class="img-fluid" width="70">
+</div>
+<div class="col-12 col-md-6 col-lg-8">
+<p class="text-secondary">Presentaci&oacute;n de equipos finalistas ante el Jurado
+Calificador y Ceremonia de Premiaci&oacute;n.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section> 
+<!--seccion preguntas frecuentes-->
+<section id="pregfrec" class="divp">
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-12">
+<div class="card card-bg-image gradient-card-rosa">
+<div class="card-body">
+<h2><span class="textros">Preguntas</span> <span class="textver">frecuentes</span></h2>
+<div class="accordion accordion-flush" id="accordionFlushExampleA">
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOneA" aria-expanded="false" aria-controls="flush-collapseOne">
+¿Cómo recupero mi contraseña?
+</button>
+</h2>
+<div id="flush-collapseOneA" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExampleA">
+<div class="accordion-body text-white">Ingresa al sistema y ubica la liga <span class="textver"> "&iquest;Olvidaste tu contrase&ntilde;a?"</span> El sistema te solicitar&aacute; tu cuenta de correo con la que te registraste, despu&eacute;s de llenar el formulario y enviarlo recibir&aacute;s un correo, da clic en la liga que se encuentra dentro de este correo y registra una contrase&ntilde;a nueva.
+Es importante indicar que la liga del correo s&oacute;lo sirve una vez, si olvidas la contrase&ntilde;a tendr&aacute;s que repetir nuevamente
+este proceso.</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwoA" aria-expanded="false" aria-controls="flush-collapseTwo">
+<span>¿Puedo solicitar una constancia de participación en el Hackathon SPEI<sup>®</sup> Banxico de cada uno de los integrantes de mi equipo?</span>
+</button>
+</h2>
+<div id="flush-collapseTwoA" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExampleA">
+<div class="accordion-body">No se emiten constancias de participaci&oacute;n individuales. Debido a que el concurso es en equipo, en las constancias de participaci&oacute;n que se generan aparecen los nombres de todos los integrantes.
+Si tu equipo completa el env&iacute;o del trabajo de investigaci&oacute;n y cumple con todos los requisitos establecidos en las bases,
+podr&aacute;n <span class="textver">descargar</span> su constancia desde la cuenta del alumno l&iacute;der una vez que se cierre el periodo de recepci&oacute;n de ensayos,
+es decir el <span class="textver">30 de septiembre de 2025</span>.</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThreeA" aria-expanded="false" aria-controls="flush-collapseThree">
+<span class="textver">¿Cómo descargar mi constancia de participación?</span>
+</button>
+</h2>
+<div id="flush-collapseThreeA" class="accordion-collapse collapse show" data-bs-parent="#accordionFlushExampleA">
+<div class="accordion-body">Si enviaste tu ensayo y cumpliste con los lineamientos indicados en las Bases de Participación, y no descargaste la constancia desde el sistema de captura, puedes solicitar la misma enviando un correo a <a href="mailto:hackathon.spei@banxico.org.mx" target="_blank" class="text-decoration-none"><span class="textver">hackathon.spei@banxico.org.mx</span></a>, indicando en el asunto del correo “Solicitud de constancia para folio NNNNN”, reemplazando NNNNN con el número de folio que te asignó el sistema durante el registro. El correo lo tiene que enviar el alumno responsable del equipo, desde el mismo correo con el que registraste a tu equipo. La constancia se te enviará en un máximo de 5 días hábiles a partir de la fecha de envío del correo.</div>
+</div>
+</div>
+</div>
+</div>
+</div>           
+</div>
+</div>
+</div>
+</section>
+<!--seccion recursos-->
+<section id="recursos" class="divp">
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-12">
+<div class="card card-bg-image gradient-card-ver">
+<div class="card-body">
+<h2><span class="textver">Recursos</span></h2>
+<h3>Bibliograf&iacute;a recomendada</h3>
+<ul>
+<li><a href="https://www.banxico.org.mx/servicios/sistema-pagos-electronicos-in001.html" class="text-white" target="_blank" title="se abre en otra página">Si quieres conocer más acerca del SPEI<sup>&reg;</sup></a></li>
+</ul>
+<p>Si quieres conocer más acerca de otros sistemas de pagos e infraestructuras de mercados:</p>
+<ul>
+<li><a href="https://www.banxico.org.mx/servicios/sistema-pagos-interbancarios-001.html" class="text-white" target="_blank" title="se abre en otra página">Acerca del SPID<sup>&reg;</sup> </a></li>
+<li><a href="https://www.banxico.org.mx/sistemas-de-pago/codi-cobro-digital-banco-me.html" class="text-white" target="_blank" title="se abre en otra página">Acerca de CoDi<sup>&reg;</sup></a></li>
+<li><a href="https://www.banxico.org.mx/sistemas-de-pago/infraestructuras-mercados-fin.html" class="text-white" target="_blank" title="se abre en otra página">Política del Banco de México respecto a las infraestructuras de los mercados financieros </a></li>
+<li><a href="https://www.banxico.org.mx/publicaciones-y-prensa/informe-anual-sobre-las-infraestructuras-de-los-me/informes-infraestructuras-mer.html" class="text-white" target="_blank" title="se abre en otra página">Informes anuales sobre las infraestructuras de mercados financieros </a></li>
+</ul>
+</div>
+</div> 
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</main>
+ <!-- Footer -->
+<footer class="py-4 bg-black" role="contentinfo">
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-12 col-md-10 text-center">
+<a href="https://www.banxico.org.mx" title="Página del Banco de México, se abre en otra página" target="_blank">
+<img src="img/09_Logo_100_Anios.png" alt=""  class="d-inline-block align-text-top mx-4 img-fluid" style="max-width: 10rem;"></a>
+<a href="https://www.banxico.org.mx" title="Página del Banco de México, se abre en otra página" target="_blank">
+<img src="img/09_Logo_BM.png" alt=""  class="d-inline-block align-text-top mx-4 img-fluid" style="max-width: 10rem;">
+</a>
+</div>
+</div>
+</div>
+</footer>
+ <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const offcanvasEl = document.getElementById('offcanvasNavbar2');
+    const offcanvasInstance = bootstrap.Offcanvas.getOrCreateInstance(offcanvasEl);
+
+    offcanvasEl.querySelectorAll('a.nav-link[href^="#"]').forEach(link => {
+      link.addEventListener('click', function () {
+        offcanvasInstance.hide();
+      });
+    });
+  });
+</script>
+  
+</body>
+</html>
