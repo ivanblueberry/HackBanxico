@@ -7,7 +7,8 @@ from archive_site import ROOT, BASE, local_path, references
 
 manifest = json.loads((ROOT / 'archive/manifest.json').read_text())
 recovered = json.loads((ROOT / 'archive/recovered.json').read_text())
-files = manifest['files'] + recovered['files']
+deployment = json.loads((ROOT / 'archive/deployment.json').read_text())
+files = manifest['files'] + recovered['files'] + deployment['files']
 errors = []
 for item in files:
     path = ROOT / item['path']
@@ -21,7 +22,7 @@ for item in files:
     for ref in refs:
         if ref.startswith(('#', 'data:', 'mailto:', 'javascript:')):
             continue
-        url = urldefrag(urljoin(BASE + item['path'], ref))[0]
+        url = urldefrag(urljoin(item.get('url', BASE + item['path']), ref))[0]
         relative = local_path(url)
         if relative and not (ROOT / relative).is_file():
             errors.append(f'Broken reference: {item["path"]} -> {relative}')

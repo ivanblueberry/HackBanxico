@@ -15,7 +15,7 @@ Captura: 21 de septiembre de 2026, hora de Ciudad de México (22 de septiembre U
 - Fuentes Poppins regular y negrita recuperadas de una distribución pública.
 - Inventario de URLs, tamaños y huellas SHA-256 en `archive/manifest.json`; procedencia de los archivos complementarios en `archive/recovered.json`.
 
-El HTML, CSS, JavaScript e imágenes descargados de Banxico se conservan byte por byte, incluida su codificación original. Las rutas ya eran relativas y funcionan tanto en la raíz como en una subcarpeta de GitHub Pages. No hay compilación, CDN ni servicios externos necesarios para mostrar la copia.
+El HTML original se conserva byte por byte en `archive/original/index.html`. El `index.html` publicado se convirtió a UTF-8 para que GitHub Pages muestre correctamente los acentos; esa adaptación se registra en `archive/deployment.json`. CSS, JavaScript e imágenes descargados de Banxico conservan sus bytes originales. Las rutas ya eran relativas y funcionan tanto en la raíz como en una subcarpeta de GitHub Pages. No hay compilación, CDN ni servicios externos necesarios para mostrar la copia.
 
 ## Ver en tu computadora
 

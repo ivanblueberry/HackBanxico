@@ -389,7 +389,7 @@
     },
     {
       "url": "https://www.banxico.org.mx/hackathonspei/",
-      "path": "index.html",
+      "path": "archive/original/index.html",
       "bytes": 21863,
       "sha256": "5ec27a5adc727dd58004476bf6e9088e9c2c956ecc6b167827b0c9ddfcb02dac",
       "content_type": "text/html; charset=ISO-8859-1"
