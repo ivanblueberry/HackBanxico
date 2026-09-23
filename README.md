@@ -4,7 +4,7 @@ Un recuerdo de nuestra participación y del reconocimiento como **equipo ganador
 
 **[Visitar la página preservada →](https://ivanblueberry.github.io/HackBanxico/)**
 
-![Equipo ganador de la BUAP en el Hackathon SPEI Banxico 2025](img/EquipoGanador.JPG)
+![Equipo ganador de la BUAP en la ceremonia de premiación del Hackathon SPEI Banxico 2025](img/2025-BANXICO-SPEI-Hackathon-Award-Ceremony.jpg)
 
 ## Por qué existe este repositorio
 
