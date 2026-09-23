@@ -1,70 +1,43 @@
-# Hackathon SPEI® Banxico 2025 — archivo personal
+# Hackathon SPEI® Banxico 2025
 
-Copia del micrositio del Hackathon SPEI® Banxico, conservada como recuerdo del equipo ganador de la Benemérita Universidad Autónoma de Puebla: Paul Sebastian Rosales Lamarque, Francisco Ivan Torres Flores y Carlos Manuel Ibarra Cervantes, con asesoría de Luis Enrique Morales Aguilar.
+Un recuerdo de nuestra participación y del reconocimiento como **equipo ganador de la Benemérita Universidad Autónoma de Puebla (BUAP)** en el Hackathon SPEI® Banxico 2025.
 
-![Equipo ganador](img/EquipoGanador.JPG)
+**[Visitar la página preservada →](https://ivanblueberry.github.io/HackBanxico/)**
 
-Fuente: https://www.banxico.org.mx/hackathonspei/  
-Captura: 21 de septiembre de 2026, hora de Ciudad de México (22 de septiembre UTC).
+![Equipo ganador de la BUAP en el Hackathon SPEI Banxico 2025](img/EquipoGanador.JPG)
 
-## Contenido preservado
+## Por qué existe este repositorio
 
-- HTML original, dos hojas de estilo, Bootstrap y jQuery.
-- Fotografías del equipo ganador y finalistas, logotipos, fondos y gráficos para escritorio y móvil.
-- PDF de las bases, favicon y mapas de depuración disponibles o recuperados.
-- Fuentes Poppins regular y negrita recuperadas de una distribución pública.
-- Inventario de URLs, tamaños y huellas SHA-256 en `archive/manifest.json`; procedencia de los archivos complementarios en `archive/recovered.json`.
+Soy Francisco Ivan Torres Flores y formé parte del equipo ganador de esta edición. Quise conservar la página donde Banco de México publicó nuestro resultado, junto con la fotografía del equipo y los nombres de quienes compartimos esta experiencia.
 
-El HTML original se conserva byte por byte en `archive/original/index.html`. El `index.html` publicado se convirtió a UTF-8 para que GitHub Pages muestre correctamente los acentos; esa adaptación se registra en `archive/deployment.json`. CSS, JavaScript e imágenes descargados de Banxico conservan sus bytes originales. Las rutas ya eran relativas y funcionan tanto en la raíz como en una subcarpeta de GitHub Pages. No hay compilación, CDN ni servicios externos necesarios para mostrar la copia.
+Los sitios de los eventos pueden cambiar o desaparecer con el tiempo. Este repositorio guarda una copia de esa página para mantener accesible el recuerdo de nuestra participación y poder compartirlo, incluso si el micrositio original deja de estar disponible.
 
-## Ver en tu computadora
+## Nuestro equipo
 
-Desde la carpeta del repositorio, con Python 3.10 o posterior:
+Representamos a la **Benemérita Universidad Autónoma de Puebla**:
 
-```sh
-python3 -m http.server 8000 --bind 127.0.0.1
-```
+- Paul Sebastian Rosales Lamarque
+- Francisco Ivan Torres Flores
+- Carlos Manuel Ibarra Cervantes
 
-Abre http://127.0.0.1:8000/ . Para verificar la integridad y las referencias locales:
+Contamos con la asesoría de **Luis Enrique Morales Aguilar**.
 
-```sh
-python3 scripts/verify.py
-```
+## Qué puedes encontrar aquí
 
-## Repositorio y página publicada
+La página preservada reúne el anuncio del equipo ganador, las fotografías y los nombres de los equipos finalistas, las etapas y fechas del concurso, las preguntas frecuentes y las bases de participación de la edición 2025.
 
-- Repositorio: https://github.com/ivanblueberry/HackBanxico
-- Sitio: https://ivanblueberry.github.io/HackBanxico/
+También se conservaron las imágenes y los recursos necesarios para mostrarla. Puedes recorrer el sitio o consultar directamente las **[bases de participación](d/HS2025_bases.pdf)**.
 
-GitHub Pages está configurado para publicar desde la rama `main`, carpeta `/ (root)`, sin compilación. `.nojekyll` conserva los archivos estáticos tal como están. Cada push a `main` actualiza la página.
+El contenido corresponde a una edición concluida: las fechas, las indicaciones de registro y las referencias a constancias se conservan como parte de su contexto histórico.
 
-Antes de subir cambios:
+## Sobre esta copia
 
-```sh
-python3 scripts/verify.py
-git add .
-git commit -m "Actualiza el archivo"
-git push origin main
-```
+La fuente es el [micrositio del Hackathon SPEI® Banxico](https://www.banxico.org.mx/hackathonspei/), cuya captura se realizó el **21 de septiembre de 2026**, hora de Ciudad de México.
 
-En **Settings → Pages**, la opción es **Deploy from a branch**, rama `main`, carpeta `/ (root)`.
+Se mantuvieron el contenido y el diseño de la página. Para su conservación se adaptó la codificación del HTML y se recuperaron las fuentes que ya no estaban disponibles en el servidor original. El HTML original y los registros de procedencia se guardan en la carpeta [archive](archive/).
 
-Se conserva un workflow opcional como plantilla en `archive/pages-workflow.example.yml`; no está activo. Para usarlo en otro momento, muévelo a `.github/workflows/pages.yml` y selecciona **GitHub Actions** en Pages. La publicación actual no lo necesita.
-
-## Alcance y recuperación
-
-Esta copia conserva los recursos públicos referenciados por el micrositio y sus estilos. No es un respaldo del servidor ni incluye archivos privados, recursos no enlazados o el sistema de registro. Las redes sociales, el correo y las páginas bibliográficas externas conservan sus enlaces originales; su contenido no está archivado aquí.
-
-Tres URLs del servidor original devolvieron HTTP 404 durante la captura:
-
-- `fonts/Poppins-Regular.woff`
-- `fonts/Poppins-Bold.woff`
-- `js/bootstrap.bundle.min.js.map`
-
-Las fuentes se sustituyeron por Poppins Latin 400 y 700 de `@fontsource/poppins@5.2.7`. Esto restaura la tipografía declarada por el CSS, aunque puede diferir de la apariencia del sitio original cuando sus fuentes fallan. El mapa JavaScript procede de Bootstrap 5.3.3, la versión identificada en el archivo original. Estos complementos no se presentan como originales de Banxico. Sus URLs y hashes están en `archive/recovered.json` y las licencias correspondientes en `archive/licenses/`.
-
-`scripts/archive_site.py` documenta y permite repetir la descarga con Python y curl. **Volver a ejecutarlo sobrescribe la captura y el inventario**; úsalo en otra copia o rama si quieres conservar esta versión histórica. Sale con error si el servidor sigue sin entregar recursos necesarios, aun cuando existan sustitutos locales. No se ejecuta durante el despliegue.
+Los enlaces a redes sociales y a otros sitios mantienen sus destinos originales y dependen de que esas páginas sigan disponibles.
 
 ## Créditos
 
-Archivo personal y no oficial, sin afiliación institucional. Los textos, fotografías, marcas y diseño originales pertenecen a sus respectivos titulares; este repositorio no les asigna una licencia nueva. Se conservan los avisos incluidos en las dependencias de terceros y sus licencias complementarias.
+Este es un archivo personal y no oficial. Los textos, fotografías, logotipos, marcas y diseño del micrositio pertenecen a sus respectivos titulares. Su conservación aquí tiene como propósito recordar y compartir esta experiencia; no implica afiliación ni representación de Banco de México.
